@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "gamerabous094@gmail.com"
-  GitHubName: "AndVer" 
+  GitHubMail: "pritiranjanr86@gmail.com"
+  GitHubName: "pritiranjanr86" 
   Branch: "main"
 defaults:
   run:
@@ -15,7 +15,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
     - name: Initializing environment
       run: |
